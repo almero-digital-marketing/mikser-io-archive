@@ -1,25 +1,25 @@
 {
-  "name": "mikser-core-archive",
-  "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {},
-  "peerDependencies": {
-    "mikser-core": "^1.0.7"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/almero-digital-marketing/mikser-core-archive.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/almero-digital-marketing/mikser-core-archive/issues"
-  },
-  "homepage": "https://github.com/almero-digital-marketing/mikser-core-archive#readme",
-  "dependencies": {
-    "lodash": "^4.17.21",
-    "yamljs": "^0.3.0"
-  }
+	"name": "mikser-core-archive",
+	"version": "2.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {},
+	"peerDependencies": {
+		"mikser-core": "^1.0.7"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/almero-digital-marketing/mikser-core-archive.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/almero-digital-marketing/mikser-core-archive/issues"
+	},
+	"homepage": "https://github.com/almero-digital-marketing/mikser-core-archive#readme",
+	"dependencies": {
+		"lodash": "^4.17.21",
+		"yamljs": "^0.3.0"
+	}
 }
