@@ -1,25 +1,25 @@
 {
-	"name": "mikser-core-archive",
+	"name": "mikser-io-archive",
 	"version": "2.0.0",
 	"description": "",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {},
 	"peerDependencies": {
-		"mikser-core": "^1.0.7"
+		"mikser-io": "^6.0.0"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/almero-digital-marketing/mikser-core-archive.git"
+		"url": "git+https://github.com/almero-digital-marketing/mikser-io-archive.git"
 	},
 	"author": "",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/almero-digital-marketing/mikser-core-archive/issues"
+		"url": "https://github.com/almero-digital-marketing/mikser-io-archive/issues"
 	},
-	"homepage": "https://github.com/almero-digital-marketing/mikser-core-archive#readme",
+	"homepage": "https://github.com/almero-digital-marketing/mikser-io-archive#readme",
 	"dependencies": {
-		"lodash": "^4.17.21",
-		"yamljs": "^0.3.0"
+		"lodash": "^4.18.1",
+		"yaml": "^2.8.4"
 	}
 }
