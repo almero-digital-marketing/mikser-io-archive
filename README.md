@@ -2,6 +2,8 @@
 
 Archive plugin for [Mikser](https://github.com/almero-digital-marketing/mikser-io). Persists matching entities to YAML files in a configurable archives folder, keeping snapshots in sync on create, update, and delete.
 
+Useful when you need an audit trail, a versioned content history, or a portable export to feed a downstream consumer (an LLM training set, a backup target, an analytics pipeline). The archive is just YAML on disk — diffable, git-trackable, takeable-with-you on day one and day 3,000.
+
 ## Install
 
 ```bash
