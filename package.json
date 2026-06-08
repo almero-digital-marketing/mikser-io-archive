@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {},
   "peerDependencies": {
-    "mikser-io": "^7.0.0"
+    "mikser-io": "^8.0.0"
   },
   "repository": {
     "type": "git",
