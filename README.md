@@ -14,20 +14,21 @@ npm install mikser-io-archive
 
 ```js
 // mikser.config.js
+import { archive } from 'mikser-io-archive'
+
 export default {
-  plugins: ['archive'],
-  archives: {
-    archivesFolder: 'archives'
-  },
-  archive: {
-    archives: [
-      { match: { collection: 'pages' }, use: 'meta' }
-    ]
-  }
+  plugins: [
+    archive({
+      archivesFolder: 'archives',
+      archives: [
+        { match: { collection: 'pages' }, use: 'meta' }
+      ]
+    })
+  ]
 }
 ```
 
-Each entry in `archive.archives` selects entities via `match` and dumps the slice at `use` (default `meta`) to `<archivesFolder>/<entity.name>.yml`. `match` accepts:
+Each entry in `archives` selects entities via `match` and dumps the slice at `use` (default `meta`) to `<archivesFolder>/<entity.name>.yml`. `match` accepts:
 
 - an **object** — partial match against the entity (lodash `isMatch`)
 - a **string** — glob against `entity.id`, or `@/<glob>` to match against `entity.name`
