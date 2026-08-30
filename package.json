@@ -1,7 +1,7 @@
 {
   "name": "mikser-io-archive",
-  "version": "4.0.0",
-  "description": "",
+  "version": "4.0.1",
+  "description": "Archive plugin for Mikser. Persists matching entities to YAML files in a configurable archives folder, keeping snapshots in sync on create, update, and delete.",
   "main": "index.js",
   "type": "module",
   "scripts": {},
