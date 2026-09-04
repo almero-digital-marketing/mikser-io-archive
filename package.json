@@ -4,7 +4,9 @@
   "description": "Archive plugin for Mikser. Persists matching entities to YAML files in a configurable archives folder, keeping snapshots in sync on create, update, and delete.",
   "main": "index.js",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "test": "node --no-warnings --test --test-reporter=spec 'test/**/*.test.js'"
+  },
   "peerDependencies": {
     "mikser-io": "^10.0.0"
   },
